@@ -5,7 +5,7 @@ SCIJERRY가 운영하는 INHWA(인화)의 공개 안내 사이트.
 - Support: https://jxewonkim.github.io/inhwa-support/support.html
 - Privacy: https://jxewonkim.github.io/inhwa-support/privacy.html
 - Terms: https://jxewonkim.github.io/inhwa-support/terms.html
-- Contact: jxewon.kim@gmail.com
+- Contact: scijerry.oiffcial@gmail.com
 
 이 저장소에는 공개 안내 자료만 포함합니다. 앱 소스, 사용자 콘텐츠, 인증 키, 활성 초대 코드를 넣지 않습니다.
 

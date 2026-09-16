@@ -1,4 +1,4 @@
-const email = '<a href="mailto:jxewon.kim@gmail.com">jxewon.kim@gmail.com</a>';
+const email = '<a href="mailto:scijerry.oiffcial@gmail.com">scijerry.oiffcial@gmail.com</a>';
 const date = '<p class="date">시행일 · 최종 수정일: 2026년 9월 15일 / 버전 1.0</p>';
 export const pages = [
   {
@@ -6,12 +6,12 @@ export const pages = [
     description: 'SCIJERRY가 운영하는 INHWA(인화)의 공식 고객지원, 개인정보처리방침 및 이용약관입니다.',
     body: `<p class="intro">사진과 영상을 함께 보관하는 프라이빗 사진첩.<br>인화 이용 중 궁금한 점은 여기서 확인하세요.</p>
 <div class="cards"><a class="card" href="support.html"><h2>고객지원 ↗</h2><p>이용 방법, 오류 문의, 계정 삭제와 콘텐츠 신고</p></a><a class="card" href="privacy.html"><h2>개인정보처리방침 ↗</h2><p>어떤 정보를 보관하고, 누구와 공유하고, 언제 삭제하는지</p></a><a class="card" href="terms.html"><h2>이용약관 ↗</h2><p>스페이스 이용과 사진·영상의 권리, 콘텐츠 이용규칙</p></a><div class="card"><h2>직접 문의하기</h2><p>${email}</p><p>운영: SCIJERRY</p></div></div>
-<p class="date" lang="en">Official support and policy pages for INHWA, operated by SCIJERRY. For support, privacy requests or content reports, email jxewon.kim@gmail.com. No sign-in is required to read these pages.</p>`
+<p class="date" lang="en">Official support and policy pages for INHWA, operated by SCIJERRY. For support, privacy requests or content reports, email scijerry.oiffcial@gmail.com. No sign-in is required to read these pages.</p>`
   },
   {
     file: 'support.html', title: '고객지원', category: 'SUPPORT',
     description: 'INHWA 이용 방법, 오류 문의, 계정 삭제, 개인정보 및 콘텐츠 신고 안내. 운영 SCIJERRY.',
-    body: `<p class="intro">도움이 필요하면 SCIJERRY에 연락해주세요.</p><p class="contact">${email}</p><a class="button" href="mailto:jxewon.kim@gmail.com?subject=INHWA%20%EB%AC%B8%EC%9D%98">이메일로 문의하기 ↗</a>
+    body: `<p class="intro">도움이 필요하면 SCIJERRY에 연락해주세요.</p><p class="contact">${email}</p><a class="button" href="mailto:scijerry.oiffcial@gmail.com?subject=INHWA%20%EB%AC%B8%EC%9D%98">이메일로 문의하기 ↗</a>
 <h2>오류를 알려주실 때</h2><ul><li>iPhone 모델, iOS 버전, 인화 앱 버전</li><li>문제가 생긴 화면과 발생 시각, 다시 해볼 수 있는 순서</li><li>오류 문구 또는 개인정보를 가린 화면 캡처</li></ul><p>Apple 계정 비밀번호, 인증번호, 활성 초대 코드, 개인 사진 원본은 보내지 마세요. 메일 앱이 없다면 위 주소를 복사해 사용 중인 메일 서비스에서 보내주세요.</p>
 <h2>자주 묻는 질문</h2>
 <details><summary>처음에는 어떻게 시작하나요?</summary><p>Apple로 로그인한 뒤 새 스페이스를 만들거나 초대 코드로 참여하세요. 혼자 만든 스페이스에서도 기록을 보관할 수 있습니다.</p></details>
@@ -39,7 +39,7 @@ export const pages = [
 <section id="retention"><h2>4. 보유 기간과 삭제</h2><ul><li><strong>계정·기록:</strong> 서비스 제공에 필요한 동안 보관하며, 계정 또는 해당 데이터의 삭제가 완료되면 운영 데이터베이스와 저장소에서 삭제합니다.</li><li><strong>로그아웃:</strong> 기기의 로그인 상태를 종료하며 서버의 계정이나 기록을 삭제하지 않습니다.</li><li><strong>스페이스 나가기:</strong> 멤버 관계를 해제하며, 해당 스페이스에 올린 기록은 남습니다.</li><li><strong>스페이스 삭제:</strong> 오너가 삭제하면 그 공간의 모든 멤버가 올린 기록·미디어와 초대·멤버 정보를 삭제합니다.</li><li><strong>계정 삭제:</strong> 내 계정과 내가 올린 데이터를 삭제합니다. 다른 멤버가 올린 기록은 유지하며, 남은 멤버가 있는 공간은 소유권을 이전하여 유지하고 남은 멤버가 없는 공간은 정리합니다.</li><li><strong>삭제 처리 기록:</strong> 중단된 삭제를 이어가기 위한 최소 정보는 완료까지 보관합니다. 계정 삭제 완료 영수증은 사용자 식별자와의 연결을 제거하며, 앱의 완료 수신 확인 후 30일이 지나면 정리 대상이 됩니다. 수신 확인 전에는 삭제 완료를 복구할 수 있도록 유지됩니다. 삭제된 스페이스에 데이터가 다시 업로드되는 것을 막기 위한 최소 식별자·처리 상태는 계속 보관되며, 요청자 계정 삭제 시 요청자 연결을 제거합니다.</li><li><strong>기기 사본:</strong> 업로드 대기 파일과 조회 캐시는 기기에 저장될 수 있습니다. 계정 삭제 과정에서 해당 계정의 로컬 데이터를 정리합니다. 사진 앱에 내보낸 파일이나 다른 사람의 사본은 별도로 삭제해야 합니다.</li><li><strong>문의·신고:</strong> 처리와 관련 분쟁 해결에 필요한 동안 보관하고 목적이 끝나면 지체 없이 삭제합니다. 법령상 보존 의무가 있는 경우 해당 항목을 그 의무 기간 동안 분리하여 보관합니다.</li></ul><p>전자적 정보는 서비스의 데이터베이스·저장소 삭제 절차로 파기합니다. 인프라의 보안 로그나 백업 사본은 제공자의 보유·순환 정책에 따라 제거될 수 있어 운영 데이터 삭제와 모든 인프라 사본의 삭제 시점이 같지는 않을 수 있습니다. 서버 장애 등으로 삭제가 중단되면 앱의 재개 기능 또는 고객지원을 이용해주세요.</p></section>
 <section id="rights"><h2>5. 이용자의 권리와 행사 방법</h2><p>개인정보 열람, 정정·삭제, 처리정지 및 동의 철회는 ${email}로 요청할 수 있습니다. 본인 또는 적법한 대리인인지 확인하는 데 필요한 최소 정보를 요청할 수 있으며, 법령상 제한 사유가 있는 경우 이유를 안내합니다.</p><p>계정 삭제는 <strong>스페이스 → 설정(톱니바퀴) → 계정 설정 → 계정 삭제</strong>에서 시작합니다. 시스템 권한은 iPhone 설정에서 철회할 수 있습니다. 필수 계정 처리에 동의하지 않거나 처리를 중단하면 로그인 기반 보관·공유 서비스 제공이 제한될 수 있습니다.</p><p>미성년자의 개인정보도 같은 기준으로 보호합니다. 법정대리인 동의가 필요한 개인정보 처리가 동의 없이 이루어진 사실을 알게 되면 보호자 또는 이용자는 위 연락처로 알려주세요. 확인 후 필요한 보호·삭제 조치를 안내합니다.</p></section>
 <h2>6. 보호 조치</h2><p>서버 연결에는 HTTPS를 사용하고, 로그인 및 스페이스 멤버십에 따라 데이터 접근을 제한합니다. 미디어 저장소는 비공개이며 만료되는 접근 링크를 사용합니다. 이는 종단간 암호화 서비스라는 뜻은 아닙니다. 초대 코드나 접근 링크를 다른 사람에게 노출하지 않도록 주의해주세요.</p>
-<section id="contact"><h2>7. 담당자와 변경 안내</h2><p>운영자·개인정보 보호 문의 담당: <strong>SCIJERRY</strong><br>이메일: ${email}</p><p>권리 침해에 관한 상담·분쟁 조정은 <a href="https://privacy.kisa.or.kr/">개인정보침해 신고센터</a> 또는 <a href="https://www.kopico.go.kr/">개인정보분쟁조정위원회</a>에도 요청할 수 있습니다.</p><p>방침이 바뀌면 이 페이지의 시행일과 변경 이력을 갱신합니다. 이용자 권리에 중대한 영향을 주는 변경은 적용 전에 앱 또는 안내 페이지 등으로 알리고, 법령상 필요한 동의는 별도로 받습니다.</p><p class="date">변경 이력: 2026.09.15 — 최초 공개.</p></section>`
+<section id="contact"><h2>7. 담당자와 변경 안내</h2><p>운영자·개인정보 보호 문의 담당: <strong>SCIJERRY</strong><br>이메일: ${email}</p><p>권리 침해에 관한 상담·분쟁 조정은 <a href="https://privacy.kisa.or.kr/">개인정보침해 신고센터</a> 또는 <a href="https://www.kopico.go.kr/">개인정보분쟁조정위원회</a>에도 요청할 수 있습니다.</p><p>방침이 바뀌면 이 페이지의 시행일과 변경 이력을 갱신합니다. 이용자 권리에 중대한 영향을 주는 변경은 적용 전에 앱 또는 안내 페이지 등으로 알리고, 법령상 필요한 동의는 별도로 받습니다.</p><p class="date">변경 이력: 2026.09.15 — 최초 공개. 2026.09.16 — 고객지원·개인정보 문의 이메일 변경.</p></section>`
   },
   {
     file: 'terms.html', title: '이용약관·콘텐츠 이용규칙', category: 'TERMS & CONTENT RULES',
@@ -51,6 +51,6 @@ export const pages = [
 <h2>4. 금지하는 콘텐츠와 행위</h2><ul><li>불법 촬영물, 동의 없는 사적 이미지, 아동·청소년 성착취물 및 기타 불법 콘텐츠</li><li>협박, 괴롭힘, 혐오·폭력 조장, 타인의 신상정보 무단 공개</li><li>저작권·초상권·개인정보 등 타인의 권리를 침해하는 자료</li><li>악성 파일, 스팸, 타인 사칭, 무단 접근이나 보안·접근 제한 우회</li><li>서비스의 정상 운영을 방해하거나 다른 이용자에게 피해를 주는 행위</li></ul>
 <h2>5. 신고와 대응</h2><p>위반 의심 자료는 ${email}로 제목에 <strong>[인화 신고]</strong>를 적어 알려주세요. 신고 대상과 사유, 필요한 최소 증빙을 함께 알려주시면 확인 후 필요한 조치를 안내합니다. 불법 자료 자체나 계정 비밀번호는 첨부하지 마세요.</p><p>운영자는 확인된 위반에 대해 관련 법령과 사실관계에 따라 콘텐츠 삭제 등 필요한 조치를 취할 수 있습니다. 조치에 대한 설명이나 재검토는 같은 이메일로 요청할 수 있습니다. 현재 이메일 신고는 앱에서 콘텐츠를 즉시 숨기거나 사용자를 차단하는 기능이 아닙니다.</p>
 <h2>6. 서비스 변경과 책임</h2><p>운영자는 유지보수·보안 대응 또는 외부 서비스 변경에 따라 기능을 수정하거나 일시 중단할 수 있습니다. 이용에 중대한 영향을 주는 변경은 가능한 경우 사전에 안내합니다. 중요한 원본은 별도로 보관해주세요.</p><p>이 약관은 관련 법령이 보장하는 이용자의 권리를 제한하거나 운영자의 고의·중대한 과실에 대한 책임을 배제하지 않습니다. 이용약관의 중요한 변경은 적용 전 안내하고, 필요한 경우 별도 동의를 받습니다.</p>
-<h2>7. 문의와 개인정보</h2><p>운영: <strong>SCIJERRY</strong><br>연락처: ${email}<br>개인정보 처리: <a href="privacy.html">개인정보처리방침</a><br>이용 지원: <a href="support.html">고객지원</a></p><p class="date">변경 이력: 2026.09.15 — 최초 공개.</p>`
+<h2>7. 문의와 개인정보</h2><p>운영: <strong>SCIJERRY</strong><br>연락처: ${email}<br>개인정보 처리: <a href="privacy.html">개인정보처리방침</a><br>이용 지원: <a href="support.html">고객지원</a></p><p class="date">변경 이력: 2026.09.15 — 최초 공개. 2026.09.16 — 고객지원·개인정보 문의 이메일 변경.</p>`
   }
 ];
