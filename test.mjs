@@ -25,10 +25,21 @@ test('모든 내부 링크·스타일·앵커가 존재한다', async () => {
   }
 });
 test('공개 산출물은 안내 HTML과 스타일만 포함한다',async()=>{
-  assert.deepEqual((await readdir('docs')).sort(),['.nojekyll','index.html','privacy.html','styles.css','support.html','terms.html']);
+  assert.deepEqual((await readdir('docs')).sort(),['.nojekyll','assets','index.html','privacy.html','styles.css','support.html','terms.html']);
+  assert.deepEqual((await readdir('docs/assets')).sort(), ['Gaegu-OFL.txt','Gaegu-Regular.ttf','companion.png']);
   for(const file of await readdir('docs')) {
+    if (file === 'assets') continue;
     const data = await readFile(`docs/${file}`,'utf8');
     assert.ok(!/BEGIN .*PRIVATE KEY|supabase\.co(?:[/:"\s]|$)|eyJ[a-zA-Z0-9_-]{25}|\/Users\//.test(data),file);
+  }
+});
+test('인화 팔레트와 로컬 캐릭터·손글씨 자산을 사용한다', async () => {
+  const css = await readFile('docs/styles.css', 'utf8');
+  for (const hex of ['#F4F4F4', '#FFF5D6', '#BDD4E1', '#B3B4B6']) assert.ok(css.includes(hex));
+  for (const page of pages) {
+    const html = await readFile(`docs/${page.file}`, 'utf8');
+    assert.ok(html.includes('class="companion"'));
+    assert.ok(!html.includes('class="eyebrow"'));
   }
 });
 test('삭제 범위와 미구현 신고 기능을 과장하지 않는다', async()=>{
