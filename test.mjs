@@ -8,7 +8,7 @@ test('네 페이지 모두 한국어·모바일·본문·현재 메뉴·운영 �
   for (const page of pages) {
     const html = await readFile(`docs/${page.file}`, 'utf8');
     assert.ok(!html.includes('jxewon.kim@gmail.com'), `${page.file}: old support email`);
-    for (const token of ['lang="ko"','name="viewport"','id="main"','aria-current="page"','SCIJERRY','mailto:scijerry.oiffcial@gmail.com']) assert.ok(html.includes(token), `${page.file}: ${token}`);
+    for (const token of ['lang="ko"','name="viewport"','id="main"','aria-current="page"','SCIJERRY','mailto:scijerry.official@gmail.com']) assert.ok(html.includes(token), `${page.file}: ${token}`);
     assert.equal([...html.matchAll(/<h1>/g)].length,1);
     assert.ok(!/<script|<iframe|<form|TODO|\[HTTPS|출시 책임자 확정/i.test(html));
   }
