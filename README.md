@@ -5,6 +5,9 @@ SCIJERRY가 운영하는 INHWA(인화)의 공개 안내 사이트.
 - Support: https://jxewonkim.github.io/inhwa-support/support.html
 - Privacy: https://jxewonkim.github.io/inhwa-support/privacy.html
 - Terms: https://jxewonkim.github.io/inhwa-support/terms.html
+- Support (English): https://jxewonkim.github.io/inhwa-support/support-en.html
+- Privacy (English): https://jxewonkim.github.io/inhwa-support/privacy-en.html
+- Terms (English): https://jxewonkim.github.io/inhwa-support/terms-en.html
 - Contact: scijerry.official@gmail.com
 
 이 저장소에는 공개 안내 자료만 포함합니다. 앱 소스, 사용자 콘텐츠, 인증 키, 활성 초대 코드를 넣지 않습니다.
@@ -12,7 +15,8 @@ SCIJERRY가 운영하는 INHWA(인화)의 공개 안내 사이트.
 ## Updating
 
 Node.js로 `npm run build && npm test`를 실행합니다. 의존성 설치는 필요하지 않습니다.
-`pages.mjs`와 `styles.css`가 원본이며 `docs/`는 생성된 정적 페이지입니다.
+`pages.mjs`의 한국어·영어 본문과 `build.mjs`의 언어별 메뉴, `styles.css`가 원본이며 `docs/`는 생성된 정적 페이지입니다.
+한국어 안내 4개와 영어 고객지원·개인정보처리방침·이용약관 3개를 생성합니다. 영어 페이지의 메뉴와 본문 링크는 영어 페이지끼리 연결됩니다.
 GitHub Pages는 `main` 브랜치의 `/docs`에서 게시합니다.
 
 정책 변경 시 실제 앱·운영 설정과 대조하고 시행일·변경 이력을 갱신합니다.
